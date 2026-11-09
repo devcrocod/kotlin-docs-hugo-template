@@ -8,6 +8,4 @@ go 1.22
 // monorepo, the placeholder require + replace below wire it to the in-repo
 // package; sync-templates.yml strips both before mirroring, since the
 // placeholder version is unresolvable for standalone consumers.
-require github.com/devcrocod/kotlin-docs-kit/packages/hugo v0.0.0-unpublished
 
-replace github.com/devcrocod/kotlin-docs-kit/packages/hugo => ../../packages/hugo
